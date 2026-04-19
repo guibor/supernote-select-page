@@ -56,6 +56,9 @@ yarn-error.log
 # Bundle artifact
 *.jsbundle
 
+# Raw AI image-generation responses can contain large base64 payloads.
+assets/logo/*response*.json
+
 # Ruby / CocoaPods
 **/Pods/
 /vendor/bundle/
