@@ -1,4 +1,4 @@
-# Supernote Select Page — Project Playbook
+# Supernote Select All — Project Playbook
 
 > Single source of truth for what this project should do and for whom.
 
@@ -18,7 +18,7 @@
   installable `.snplg` package; public-friendly README and playbook.
 - Out of scope: DOC support, cross-page selection, element deletion, export,
   sync, or any mutation of note contents.
-- Success criteria: tapping `Select Page` on a NOTE page creates a visible
+- Success criteria: tapping `Select All` on a NOTE page creates a visible
   lasso selection around existing page elements without requiring a starter
   lasso.
 

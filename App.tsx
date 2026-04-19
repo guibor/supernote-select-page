@@ -30,7 +30,7 @@ function App(): React.JSX.Element {
         backgroundColor={background}
       />
       <ScrollView contentContainerStyle={styles.content}>
-        <Text style={[styles.title, {color: foreground}]}>Select Page</Text>
+        <Text style={[styles.title, {color: foreground}]}>Select All</Text>
         <Text style={[styles.body, {color: foreground}]}>
           This plugin adds a NOTE toolbar button that selects every element on
           the current page.
@@ -43,7 +43,7 @@ function App(): React.JSX.Element {
         </Text>
         <Text style={[styles.subtitle, {color: foreground}]}>Use</Text>
         <Text style={[styles.body, {color: muted}]}>
-          Open a note page and tap Select Page in the NOTE toolbar. The normal
+          Open a note page and tap Select All in the NOTE toolbar. The normal
           Supernote lasso selection should appear around all elements on that
           page.
         </Text>

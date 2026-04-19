@@ -1,10 +1,10 @@
 {
-  "name": "Select Page",
-  "desc": "Select every element on the current Supernote note page with one toolbar button.",
+  "name": "Select All",
+  "desc": "Select all elements on the current Supernote note page with one toolbar button.",
   "iconPath": "assets/icon.png",
-  "versionName": "0.1.2",
-  "versionCode": "3",
+  "versionName": "0.2.0",
+  "versionCode": "4",
   "pluginID": "zaut15tusabmpcro",
-  "pluginKey": "supernote_select_page",
+  "pluginKey": "supernote_select_all",
   "jsMainPath": "index"
 }

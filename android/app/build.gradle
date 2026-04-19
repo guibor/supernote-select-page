@@ -186,9 +186,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.supernote_select_page"
+    namespace "com.supernote_select_all"
     defaultConfig {
-        applicationId "com.supernote_select_page"
+        applicationId "com.supernote_select_all"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

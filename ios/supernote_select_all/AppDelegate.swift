@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window = UIWindow(frame: UIScreen.main.bounds)
 
     factory.startReactNative(
-      withModuleName: "supernote_select_page",
+      withModuleName: "supernote_select_all",
       in: window,
       launchOptions: launchOptions
     )

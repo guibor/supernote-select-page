@@ -1,4 +1,4 @@
-package com.supernote_select_page
+package com.supernote_select_all
 
 import android.app.Application
 import com.facebook.react.PackageList

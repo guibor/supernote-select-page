@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "supernote_select_page.app"
-               BlueprintName = "supernote_select_page"
-               ReferencedContainer = "container:supernote_select_page.xcodeproj">
+               BuildableName = "supernote_select_all.app"
+               BlueprintName = "supernote_select_all"
+               ReferencedContainer = "container:supernote_select_all.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "supernote_select_pageTests.xctest"
-               BlueprintName = "supernote_select_pageTests"
-               ReferencedContainer = "container:supernote_select_page.xcodeproj">
+               BuildableName = "supernote_select_allTests.xctest"
+               BlueprintName = "supernote_select_allTests"
+               ReferencedContainer = "container:supernote_select_all.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "supernote_select_page.app"
-            BlueprintName = "supernote_select_page"
-            ReferencedContainer = "container:supernote_select_page.xcodeproj">
+            BuildableName = "supernote_select_all.app"
+            BlueprintName = "supernote_select_all"
+            ReferencedContainer = "container:supernote_select_all.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "supernote_select_page.app"
-            BlueprintName = "supernote_select_page"
-            ReferencedContainer = "container:supernote_select_page.xcodeproj">
+            BuildableName = "supernote_select_all.app"
+            BlueprintName = "supernote_select_all"
+            ReferencedContainer = "container:supernote_select_all.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

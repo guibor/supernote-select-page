@@ -5,7 +5,7 @@ Subreddit: `r/Supernote_dev`
 Title:
 
 ```text
-Select Page: a one-tap full-page lasso plugin for Supernote notes
+Select All: a one-tap full-page lasso plugin for Supernote notes
 ```
 
 Body:
@@ -13,11 +13,11 @@ Body:
 ```markdown
 Hi everyone,
 
-I made a small Supernote plugin called **Select Page**:
+I made a small Supernote plugin called **Select All**:
 
-https://github.com/guibor/supernote-select-page
+https://github.com/guibor/supernote-select-all
 
-It does one thing: adds a **Select Page** button to the NOTE toolbar. Tap it, and it creates a normal Supernote lasso selection around the entire current note page.
+It does one thing: adds a **Select All** button to the NOTE toolbar. Tap it, and it creates a normal Supernote lasso selection around the entire current note page.
 
 Why I built it:
 

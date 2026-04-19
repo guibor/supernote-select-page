@@ -14,7 +14,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'supernote_select_page' do
+target 'supernote_select_all' do
   config = use_native_modules!
 
   use_react_native!(

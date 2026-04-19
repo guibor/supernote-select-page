@@ -17,26 +17,26 @@ AppRegistry.registerComponent(appName, () => App);
 
 PluginManager.init();
 
-const SELECT_PAGE_BUTTON_ID = 100;
+const SELECT_ALL_BUTTON_ID = 100;
 const ICON_URI = Image.resolveAssetSource(require('./assets/icon.png')).uri;
 
 let isSelecting = false;
 
 PluginManager.registerButton(1, ['NOTE'], {
-  id: SELECT_PAGE_BUTTON_ID,
-  name: 'Select Page',
+  id: SELECT_ALL_BUTTON_ID,
+  name: 'Select All',
   icon: ICON_URI,
   showType: 0,
 });
 
 PluginManager.registerButtonListener({
   onButtonPress: event => {
-    if (event.id !== SELECT_PAGE_BUTTON_ID) {
+    if (event.id !== SELECT_ALL_BUTTON_ID) {
       return;
     }
 
     selectCurrentPage().catch(error => {
-      console.error('[select-page] unexpected selection failure', error);
+      console.error('[select-all] unexpected selection failure', error);
     });
   },
 });
@@ -101,10 +101,10 @@ async function selectCurrentPage() {
 
     const showRes = await PluginCommAPI.setLassoBoxState?.(0);
     if (showRes && !showRes.success) {
-      console.warn('[select-page] lasso selected but show state failed', showRes.error);
+      console.warn('[select-all] lasso selected but show state failed', showRes.error);
     }
 
-    console.log('[select-page] selected page', {
+    console.log('[select-all] selected page', {
       filePath,
       page,
       rect,
@@ -112,8 +112,8 @@ async function selectCurrentPage() {
     });
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
-    console.error('[select-page] selection failed', error);
-    await showDialog(`Select Page failed:\n${message}`);
+    console.error('[select-all] selection failed', error);
+    await showDialog(`Select All failed:\n${message}`);
   } finally {
     isSelecting = false;
   }
@@ -132,7 +132,7 @@ function fullPageRect(pageSize) {
 
 async function showDialog(message) {
   if (typeof NativeUIUtils?.showRattaDialog !== 'function') {
-    console.warn('[select-page]', message);
+    console.warn('[select-all]', message);
     return;
   }
 

@@ -1,4 +1,4 @@
-# Supernote Select Page — Agent Instructions
+# Supernote Select All — Agent Instructions
 
 The playbook is the source of truth. Read it before writing code, especially:
 

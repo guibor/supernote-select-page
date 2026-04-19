@@ -1,6 +1,6 @@
 {
-  "name": "supernote_select_page",
-  "version": "0.1.2",
+  "name": "supernote_select_all",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",

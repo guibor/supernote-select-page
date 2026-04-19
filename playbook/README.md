@@ -1,4 +1,4 @@
-# Supernote Select Page Playbook
+# Supernote Select All Playbook
 
 > Single source of truth for what this project is, how it should evolve, and how agents should work inside it.
 

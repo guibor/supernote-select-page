@@ -1,4 +1,4 @@
-# Supernote Select Page — Engineering Playbook
+# Supernote Select All — Engineering Playbook
 
 > Single source of truth for how this project is built.
 
@@ -23,7 +23,7 @@
   Supernote SDK calls through `sn-plugin-lib`.
 - Testing approach: run `npm run typecheck` and `npm run build:plugin`; final
   behavior requires physical Supernote testing.
-- Deployment or release path: build `build/outputs/supernote_select_page.snplg`
+- Deployment or release path: build `build/outputs/supernote_select_all.snplg`
   and upload it to `MyStyle/` on the Supernote.
 - Rules for agents: keep the plugin headless for the main action; do not add
   file mutations unless the playbook scope changes.

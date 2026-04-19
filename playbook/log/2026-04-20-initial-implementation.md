@@ -13,7 +13,7 @@ without requiring the user to draw a starter lasso first.
 
 ## Implementation
 
-- Register one NOTE toolbar button named `Select Page`.
+- Register one NOTE toolbar button named `Select All`.
 - Read the current file path with `PluginCommAPI.getCurrentFilePath()`.
 - Read the current page with `PluginCommAPI.getCurrentPageNum()`.
 - Read page dimensions with `PluginFileAPI.getPageSize(filePath, page)`.
